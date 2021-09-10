@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		288CB7255529E9A861B8A376 /* Pods-TransmedikaSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransmedikaSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-TransmedikaSDK_Tests/Pods-TransmedikaSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		299BFC5C6DBEFE32C67E7A5F /* Pods_TransmedikaSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransmedikaSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46BF7CD21FF17744F68E5D2C /* TransmedikaSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TransmedikaSDK.podspec; path = ../TransmedikaSDK.podspec; sourceTree = "<group>"; };
+		46BF7CD21FF17744F68E5D2C /* TransmedikaSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TransmedikaSDK.podspec; path = ../TransmedikaSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* TransmedikaSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransmedikaSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		85B3EDA7EF619E09AA168561 /* Pods_TransmedikaSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransmedikaSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		917C88A1F0598C24C7A436B0 /* Pods-TransmedikaSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransmedikaSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-TransmedikaSDK_Example/Pods-TransmedikaSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		956D600043EC2605F2214696 /* Pods-TransmedikaSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransmedikaSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-TransmedikaSDK_Example/Pods-TransmedikaSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AD1D0DCC1010779EFA071110 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AD1D0DCC1010779EFA071110 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D2226C5F88E96DEA25A80B71 /* Pods-TransmedikaSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransmedikaSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TransmedikaSDK_Tests/Pods-TransmedikaSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F343A0FE2C8950B6B214EBC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F343A0FE2C8950B6B214EBC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				D2226C5F88E96DEA25A80B71 /* Pods-TransmedikaSDK_Tests.debug.xcconfig */,
 				288CB7255529E9A861B8A376 /* Pods-TransmedikaSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
