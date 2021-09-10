@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Loding View Controller-->
+        <scene sceneID="mIh-sX-He9">
+            <objects>
+                <viewController storyboardIdentifier="lodingViewController" modalPresentationStyle="overFullScreen" id="pS2-TP-HSA" customClass="lodingViewController" customModule="Pasien" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Px-G6-Pcr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hqc-3d-5ys">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ioB-lv-H4b">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oar-uw-aFc">
+                                            <rect key="frame" x="0.0" y="0.0" width="174" height="690"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="o0y-5c-W9b">
+                                                <rect key="frame" x="0.0" y="0.0" width="174" height="690"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="regular"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hrs-G1-WHs" customClass="FSPagerView" customModule="FSPagerView">
+                                <rect key="frame" x="157" y="403" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="KeE-b6-ohq"/>
+                                    <constraint firstAttribute="width" constant="100" id="vha-bn-uao"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="caf-ml-cSz"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Hrs-G1-WHs" firstAttribute="centerY" secondItem="caf-ml-cSz" secondAttribute="centerY" id="9Hb-b0-UvR"/>
+                            <constraint firstItem="hqc-3d-5ys" firstAttribute="leading" secondItem="caf-ml-cSz" secondAttribute="leading" id="XrF-nU-2y8"/>
+                            <constraint firstItem="hqc-3d-5ys" firstAttribute="top" secondItem="caf-ml-cSz" secondAttribute="top" id="Zd3-gM-Jg5"/>
+                            <constraint firstItem="Hrs-G1-WHs" firstAttribute="centerX" secondItem="caf-ml-cSz" secondAttribute="centerX" id="g7n-Kk-tem"/>
+                            <constraint firstItem="caf-ml-cSz" firstAttribute="bottom" secondItem="hqc-3d-5ys" secondAttribute="bottom" id="irW-ha-57v"/>
+                            <constraint firstItem="caf-ml-cSz" firstAttribute="trailing" secondItem="hqc-3d-5ys" secondAttribute="trailing" id="ypZ-Je-hN0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="views" destination="Hrs-G1-WHs" id="bMv-cU-NMT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LNp-jU-fIc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="26" y="52"/>
+        </scene>
+    </scenes>
+</document>

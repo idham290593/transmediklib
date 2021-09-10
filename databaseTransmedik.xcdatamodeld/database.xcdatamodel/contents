@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cartobat" representedClassName="Cartobat" syncable="YES" codeGenerationType="class">
+        <attribute name="harga" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="idtransaksi" optional="YES" attributeType="String"/>
+        <attribute name="jumlah" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="prescription_id" optional="YES" attributeType="String"/>
+        <attribute name="slug" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Firstapps" representedClassName="Firstapps" syncable="YES" codeGenerationType="class">
+        <attribute name="demo" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="walk" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Form" representedClassName="Form" syncable="YES" codeGenerationType="class">
+        <attribute name="jawaban" optional="YES" attributeType="String"/>
+        <attribute name="klinik" optional="YES" attributeType="String"/>
+        <attribute name="spesialis" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="allergy" optional="YES" attributeType="String"/>
+        <attribute name="berat" optional="YES" attributeType="String"/>
+        <attribute name="deviceid" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="fullname" optional="YES" attributeType="String"/>
+        <attribute name="genre" optional="YES" attributeType="String"/>
+        <attribute name="goldarah" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="kk" optional="YES" attributeType="String"/>
+        <attribute name="lahir" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nik" optional="YES" attributeType="String"/>
+        <attribute name="parseid" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="pin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="profile_picture" optional="YES" attributeType="String"/>
+        <attribute name="relationship" optional="YES" attributeType="String"/>
+        <attribute name="tinggi" optional="YES" attributeType="String"/>
+        <attribute name="token" optional="YES" attributeType="String"/>
+        <attribute name="tokenparse" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Cartobat" positionX="-63" positionY="117" width="128" height="119"/>
+        <element name="Firstapps" positionX="-63" positionY="126" width="128" height="59"/>
+        <element name="Users" positionX="-63" positionY="-18" width="128" height="329"/>
+        <element name="Form" positionX="-63" positionY="135" width="128" height="74"/>
+    </elements>
+</model>
